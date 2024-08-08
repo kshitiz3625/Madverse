@@ -164,3 +164,9 @@ app.get("/blog/learn-how-to-maximize-the-potential-of-madverse-dashboard", (req,
 app.get("/blog/uncovering-the-vision-and-mission-behind-madverse", (req,res) => {
   res.sendFile("blogs/uncovering-the-vision-and-mission-behind-madverse.html", { root: "public/" });
 });
+app.get("/privacy-policy", (req,res) => {
+  res.sendFile("privacy-policy.html", { root: "public/" });
+});
+app.get("/terms-of-service", (req,res) => {
+  res.sendFile("terms-of-service.html", { root: "public/" });
+});
